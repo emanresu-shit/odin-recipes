@@ -1,0 +1,25 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+.recipe .title {
+    font-weight: 800;
+}
+
+.title {
+    color: brown;
+}
+.title-2 {
+    font-weight: bolder;
+}
+.list li {
+    font-size:18px;
+    font-weight: bold; 
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
