@@ -1,23 +1,51 @@
 * {
     font-family: "Lucida Console", "Courier New", monospace;
 }
+body {
+    background-color: #DDFFF7;
+}
 img {
     width: 300px;
     height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.container {
+    width: 60%;
+    margin: 10px auto;
+}
+.intro-title {
+    padding-top: 30%;
 }
 .recipe .title {
     font-weight: 800;
 }
 
+
 .title {
-    color: brown;
+    color: #8C271E;
+    text-align: center;
 }
 .title-2 {
     font-weight: bolder;
+    text-align: left;
+    border-bottom: 3px dotted #8C271E;
 }
+
 .list li {
+    margin: 10px;
     font-size:18px;
     font-weight: bold; 
+}
+.menu-container {
+    width: 100%;
+}
+.menu-container div {
+    width: 60%;
+    margin: 0 auto;
+}
+.menu li {
+    display: inline;
 }
 p {
     font-size: 20px;
