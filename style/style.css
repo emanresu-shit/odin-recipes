@@ -2,7 +2,11 @@
     font-family: "Lucida Console", "Courier New", monospace;
 }
 body {
-    background-color: #DDFFF7;
+    color: white;
+    background-color: #8C271E;
+}
+a {
+    color: inherit;
 }
 img {
     width: 300px;
@@ -23,13 +27,12 @@ img {
 
 
 .title {
-    color: #8C271E;
     text-align: center;
 }
 .title-2 {
     font-weight: bolder;
     text-align: left;
-    border-bottom: 3px dotted #8C271E;
+    border-bottom: 3px dotted white;
 }
 
 .list li {
